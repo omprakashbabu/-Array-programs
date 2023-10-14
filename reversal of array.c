@@ -1,6 +1,9 @@
+
+// Write a C program to read n number of values in an array and display them in reverse order.
+
 #include<stdio.h>
 void main(){
-    int arr[50],n;
+    int arr[100],n;
     printf("Enter the number of elements to be stored : ");
     scanf("%d",&n);
     printf("Enter %d elements : ",n);
