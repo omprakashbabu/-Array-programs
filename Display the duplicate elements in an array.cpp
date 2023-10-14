@@ -12,16 +12,13 @@ int main(){
         cout<<"Input "<<n<<" elements in the array :\n";
         for(i=0;i<n;i++)
         {
-            cout<<"element - "<<i<<" : ";
+            cout<<"element - "<<i+1<<" : ";
             cin>>arr[i];
         }
         for (i = 0; i < n; i++) {
-            for (j = i + 1; j < n; j++) {
-                if (arr[i] == arr[j]) {
-                    
-                    cout<<"\nThe duplicate element is : "<<arr[i];
-                    break;
-                }
+            if (arr[i] == arr[i+1]) {
+                cout<<"\nThe duplicate element is : "<<arr[i];
+            
             }
         }
     
