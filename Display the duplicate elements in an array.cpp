@@ -36,4 +36,6 @@ element - 3 : 4
 element - 4 : 4
 
 The duplicate element is : 1
-The duplicate element is : 4  */
+The duplicate element is : 4    
+
+*/
