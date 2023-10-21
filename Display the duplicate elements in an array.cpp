@@ -1,5 +1,5 @@
 
-//Display the duplicate elements in an array
+//  Display the duplicate elements in an array    
 
 #include<iostream>
 using namespace std;
